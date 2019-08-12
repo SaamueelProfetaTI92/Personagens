@@ -9,17 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_Activity" android:theme="@style/SemAction">
+        <activity android:name=".Recebe_foto_nome"></activity>
+        <activity android:name=".Personagens" />
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/SemAction">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".MainActivity" android:theme="@style/SemAction">
-
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SemAction" />
     </application>
 
 </manifest>
