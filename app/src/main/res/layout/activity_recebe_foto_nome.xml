@@ -23,12 +23,22 @@
     <ImageView
         android:id="@+id/imvFoto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:src="@drawable/arrow_logo"
+        />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Voltar"
+        android:textSize="20sp"
+        android:textStyle="bold"
 
         />
-    
-    
+
+
     
     
 </LinearLayout>

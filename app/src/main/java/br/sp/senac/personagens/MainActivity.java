@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
         txtUsuario = (EditText) findViewById(R.id.txtUsuario);
         txtSenha = (EditText) findViewById(R.id.txtSenha);
 
+        btnEntrar = (Button) findViewById(R.id.btnEntrar);
+        btnSair = (Button) findViewById(R.id.btnSair);
+
         txtUsuario.requestFocus();
 
         btnEntrar.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (usuario.equals("Samuel") && senha.equals("samuel"))
                 {
-                    Intent  intent = new Intent(getApplicationContext(), Recebe_foto_nome.class);
+                    Intent  intent = new Intent(getApplicationContext(), Personagens.class);
                     startActivity(intent);
                     finish();
                 }else {

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Personagens"
+    android:background="#141312"
+    android:orientation="vertical">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:src="@drawable/arropns"
+
 
             />
 
@@ -46,18 +56,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="25dp"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:id="@+id/imvOliver"
+                        android:onClick="abrirJanela"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:src="@drawable/oliverr"
                         />
 
                     <TextView
+                        android:id="@+id/txtOliver"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Oliver Queen"
@@ -71,20 +84,24 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:onClick="abrirThea"
+                        android:id="@+id/imvThea"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/thea_queen"
                         />
 
                     <TextView
+                        android:id="@+id/txtThea"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="book"
+                        android:text="Thea Queen"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -103,20 +120,23 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:onClick="abrirRoy"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/roy_harper"
                         />
 
                     <TextView
+                        android:id="@+id/txtRoy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Food"
+                        android:text="Roy Harper"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -128,20 +148,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:onClick="abrirRay"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/ray_palmer"
                         />
 
                     <TextView
+                        android:id="@+id/txtRay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="book"
+                        android:text="Ray Palmer"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -159,20 +182,23 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:onClick="abrirNyssa"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/nyssa"
                         />
 
                     <TextView
+                        android:id="@+id/txtNyssa"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Food"
+                        android:text="Nyssa"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -184,20 +210,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#141312"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
 
                     <ImageView
+                        android:onClick="abrirDiggle"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:src="@drawable/diggle"
                         />
 
                     <TextView
+                        android:id="@+id/txtDiggle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="book"
+                        android:text="John Diggle"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -213,20 +242,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="20dp"
-                android:background="#E01695"
+                android:background="#141312"
                 android:orientation="vertical"
                 android:gravity="center_horizontal">
 
 
                 <ImageView
+                    android:onClick="abrirFelicity"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:src="@drawable/felicity_smoak"
                     />
 
                 <TextView
+                    android:id="@+id/txtFelicity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Food"
+                    android:text="Felicity Smoak"
                     android:textColor="#FFF"
                     android:layout_marginTop="20dp"
                     android:textSize="20sp"
@@ -238,20 +270,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="#E01695"
+                android:background="#141312"
                 android:orientation="vertical"
                 android:gravity="center_horizontal">
 
 
                 <ImageView
+                    android:onClick="abrirMalcom"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:src="@drawable/malcom_merlyn"
                     />
 
                 <TextView
+                    android:id="@+id/txtMalcom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="book"
+                    android:text="Malcom Merlyn"
                     android:textColor="#FFF"
                     android:layout_marginTop="20dp"
                     android:textSize="20sp"
@@ -275,3 +310,4 @@
 
 
 </LinearLayout>
+</ScrollView>
