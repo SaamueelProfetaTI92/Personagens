@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (usuario.equals("Samuel") && senha.equals("samuel"))
                 {
-                    Intent  intent = new Intent(getApplicationContext(), Personagens.class);
+                    Intent  intent = new Intent(getApplicationContext(), PersonagensActivity.class);
                     startActivity(intent);
                     finish();
                 }else {
