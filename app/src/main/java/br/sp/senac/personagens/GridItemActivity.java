@@ -29,8 +29,6 @@ public class GridItemActivity extends AppCompatActivity {
         gridData.setText(receivedName);
         imageView.setImageResource(receivedImage);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 
     @Override
