@@ -23,16 +23,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
         android:text="Oliver Queen"
+        android:fontFamily="sans-serif-smallcaps"
         android:textColor="#FFF"
         android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/griddata"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:src="@drawable/oliverr" />
+        android:layout_marginTop="37dp"
+        android:src="@drawable/oliverr"
+        />
 
 </RelativeLayout>

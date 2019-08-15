@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         btnEntrar = (Button) findViewById(R.id.btnEntrar);
         btnSair = (Button) findViewById(R.id.btnSair);
 
-        txtUsuario.requestFocus();
 
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override

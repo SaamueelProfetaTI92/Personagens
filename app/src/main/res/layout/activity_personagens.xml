@@ -4,21 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PersonagensActivity"
-    >
+    android:orientation="vertical"
+    tools:context=".PersonagensActivity">
 
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/arropns"
+        android:background="#000"
+        />
 
     <GridView
-
         android:id="@+id/gridView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:background="#e5e5e5"
-        android:horizontalSpacing="1dp"
+        android:horizontalSpacing="0dp"
         android:numColumns="2"
-        android:verticalSpacing="1dp"
-        >
+        android:verticalSpacing="0dp">
+
+
 
     </GridView>
+
 
 </LinearLayout>

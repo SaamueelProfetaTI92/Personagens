@@ -16,8 +16,9 @@ public class PersonagensActivity extends AppCompatActivity {
 
     GridView gridView;
 
-    String[] nomePerso = {"Oliver", "Felicity", "Diggle", "Canario", "Nyssa", "Thea"," Roy", "Ray", "Malcom"};
-    int[] imagePerso = {R.drawable.oliverr, R.drawable.felicity_smoak, R.drawable.diggle, R.drawable.canario, R.drawable.nyssa, R.drawable.thea_queen, R.drawable.roy_harper, R.drawable.ray_palmer, R.drawable.malcom_merlyn};
+    String[] nomePerso = {"Oliver Queen", "Felicity Smoak", " John Diggle", "Canário", "Nyssa", "Thea Queen", " Roy Harper", "Ray Palmer", "Malcom Merlyn", "Exterminador"};
+    int[] imagePerso = {R.drawable.oliverr, R.drawable.felicity_smoak, R.drawable.diggle, R.drawable.canario, R.drawable.nyssa, R.drawable.thea_queen, R.drawable.roy_harper, R.drawable.ray_palmer, R.drawable.malcom_merlyn, R.drawable.exterminador};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,7 +69,8 @@ public class PersonagensActivity extends AppCompatActivity {
 
             return view1;
 
-
         }
     }
 }
+
+
